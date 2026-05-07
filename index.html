@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title data-i18n="site.title">LoRO — Local Regulations Ontology</title>
+    <meta name="description" data-i18n="site.tagline" content="An ontology for annotating local regulatory documents, aligned with ELI">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header class="banda">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <img src="assets/img/firma.svg" alt="Ayuntamiento de Madrid" class="marca__logo me-3">
+                <a class="navbar-brand" href="#" data-i18n="site.title">
+                    LoRO — Local Regulations Ontology
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                    aria-controls="menu" aria-expanded="false" aria-label="Menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
+                        <li class="nav-item"><a class="nav-link" href="#about" data-i18n="nav.about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#resources" data-i18n="nav.resources">Resources</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#documentation" data-i18n="nav.documentation">Documentation</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#cite" data-i18n="nav.cite">Cite</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact" data-i18n="nav.contact">Contact</a></li>
+                        <li class="nav-item ms-lg-3">
+                            <button id="lang-switch" class="btn btn-outline-light btn-sm" type="button"
+                                aria-label="Switch language" title="Switch language">
+                                <i class="bi bi-translate me-1" aria-hidden="true"></i>
+                                <span data-i18n="site.lang_switch_short">ES</span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center gy-4">
+                <div class="col-md-4 text-center">
+                    <img src="assets/loro_logo_dark.png" alt="LoRO logo" class="hero__logo">
+                </div>
+                <div class="col-md-8">
+                    <h1 class="hero__heading" data-i18n="hero.heading">LoRO</h1>
+                    <p class="hero__subheading" data-i18n="hero.subheading">Local Regulations Ontology</p>
+                    <p class="hero__byline" data-i18n="hero.byline">Developed by the Municipality of Madrid as part of the MAIA initiative</p>
+                    <div class="hero__cta mt-3">
+                        <a href="#cite" class="btn-madrid btn me-2" data-i18n="nav.cite">Cite</a>
+                        <a href="#resources" class="btn-madrid-outline btn" data-i18n="nav.resources">Resources</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main id="contenido" class="contenedor">
+
+        <section id="about" class="my-5">
+            <h2 data-i18n="about.heading">About LoRO</h2>
+            <div id="about-paragraphs"></div>
+        </section>
+
+        <section id="resources" class="my-5">
+            <h2 data-i18n="resources.heading">Resources</h2>
+            <p class="section-intro" data-i18n="resources.intro"></p>
+            <div id="resources-list" class="row gy-4"></div>
+        </section>
+
+        <section id="documentation" class="my-5">
+            <h2 data-i18n="documentation.heading">Documentation</h2>
+            <div id="documentation-paragraphs"></div>
+            <ul id="documentation-links" class="documentation__links"></ul>
+        </section>
+
+        <section id="cite" class="my-5">
+            <h2 data-i18n="cite.heading">How to cite</h2>
+            <p class="section-intro" data-i18n="cite.intro"></p>
+
+            <div class="cite-block">
+                <h3 class="cite-block__label" data-i18n="cite.preferred_label">Preferred citation</h3>
+                <p class="cite-block__preferred" data-i18n="cite.preferred_text"></p>
+            </div>
+
+            <div class="cite-block">
+                <h3 class="cite-block__label" data-i18n="cite.doi_label">Concept DOI</h3>
+                <p class="cite-block__doi"><code id="cite-doi-value">10.5281/zenodo.PENDING</code></p>
+            </div>
+
+            <div class="cite-block">
+                <h3 class="cite-block__label" data-i18n="cite.bibtex_label">BibTeX</h3>
+                <pre class="cite-block__bibtex"><code id="cite-bibtex"></code></pre>
+            </div>
+        </section>
+
+        <section id="license" class="my-5">
+            <h2 data-i18n="license_section.heading">License</h2>
+            <div id="license-paragraphs"></div>
+        </section>
+
+        <section id="contact" class="my-5">
+            <h2 data-i18n="contact.heading">Contact and maintenance</h2>
+            <div id="contact-paragraphs"></div>
+            <p class="contact-maintainer">
+                <strong data-i18n="contact.maintainer_label">Institutional contact</strong>:
+                <span data-i18n="contact.maintainer_value">[institutional email pending]</span>
+            </p>
+        </section>
+
+    </main>
+
+    <footer class="pie" style="background-color: #333;">
+        <div class="contenedor pie__inner">
+            <img src="assets/img/pie.svg" class="firma__isotipo" alt="Ayuntamiento de Madrid">
+            <div class="pie__meta">
+                <span data-i18n="footer.rights">Municipality of Madrid · MAIA initiative · 2026</span>
+                <span class="pie__sep">·</span>
+                <span data-i18n="footer.version">Version 1.0</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,318 @@
+:root {
+    --azul-madrid: #003399;
+    --gris-madrid: #5A6770;
+    --texto: #1a1a1a;
+    --texto-secundario: #4a4a4a;
+}
+
+body {
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    margin: 0;
+    color: var(--texto);
+}
+
+.banda {
+    background: var(--azul-madrid);
+    color: white;
+    padding: 1rem;
+}
+
+.banda .nav-link {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.banda .nav-link:hover,
+.banda .nav-link:focus {
+    color: #ffffff;
+}
+
+.contenedor {
+    width: 100%;
+    margin: auto;
+    max-width: 1100px;
+    padding: 0 1rem;
+}
+
+.marca__logo {
+    height: 36px;
+    width: auto;
+}
+
+/* ============= HERO ============= */
+.hero {
+    background: linear-gradient(135deg, #001a4d 0%, #003399 70%, #1a4dcc 100%);
+    color: #ffffff;
+    padding: 3rem 1rem;
+}
+
+.hero .container {
+    max-width: 1100px;
+}
+
+.hero__logo {
+    width: 100%;
+    max-width: 240px;
+    height: auto;
+    border-radius: 0.75rem;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
+}
+
+.hero__heading {
+    font-size: clamp(2.4rem, 5vw, 3.5rem);
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    letter-spacing: 0.02em;
+}
+
+.hero__subheading {
+    font-size: clamp(1.1rem, 2vw, 1.5rem);
+    font-weight: 400;
+    margin-bottom: 0.75rem;
+    color: #cfe0ff;
+}
+
+.hero__byline {
+    font-size: 1rem;
+    color: #e7eefb;
+    margin-bottom: 0;
+    max-width: 60ch;
+}
+
+/* ============= GENERAL SECTIONS ============= */
+main h2 {
+    color: var(--azul-madrid);
+    font-size: clamp(1.6rem, 2.5vw, 2rem);
+    margin-bottom: 1rem;
+    border-bottom: 3px solid var(--azul-madrid);
+    padding-bottom: 0.4rem;
+    display: inline-block;
+}
+
+main p {
+    font-size: 1rem;
+    line-height: 1.75;
+    color: var(--texto-secundario);
+    text-align: justify;
+}
+
+.section-intro {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+/* ============= RESOURCE CARDS ============= */
+.resource-card-wrap {
+    display: flex;
+}
+
+.resource-card {
+    border: 1px solid #dee2e6;
+    border-radius: 0.75rem;
+    padding: 1.25rem;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.resource-card:hover {
+    box-shadow: 0 6px 18px rgba(0, 51, 153, 0.15);
+    transform: translateY(-2px);
+}
+
+.resource-card__title {
+    color: var(--azul-madrid);
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.resource-card__description {
+    font-size: 0.95rem;
+    color: var(--texto-secundario);
+    flex-grow: 1;
+    margin-bottom: 0.75rem;
+    text-align: left;
+}
+
+.resource-card__meta {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    color: #555;
+}
+
+.resource-card__meta li {
+    margin-bottom: 0.2rem;
+}
+
+/* ============= DOCUMENTATION LINKS ============= */
+.documentation__links {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1rem;
+}
+
+.documentation__links li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.documentation__links li::before {
+    content: '\f135';
+    font-family: 'bootstrap-icons';
+    color: var(--azul-madrid);
+    margin-right: 0.5rem;
+}
+
+.documentation__links a {
+    color: var(--azul-madrid);
+    text-decoration: none;
+}
+
+.documentation__links a:hover {
+    text-decoration: underline;
+}
+
+/* ============= CITE BLOCK ============= */
+.cite-block {
+    background: #f7f9fc;
+    border-left: 4px solid var(--azul-madrid);
+    border-radius: 0.25rem;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.cite-block__label {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--azul-madrid);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.cite-block__preferred {
+    font-size: 1rem;
+    color: var(--texto);
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.cite-block__doi code {
+    background: #fff;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #d0d7e2;
+    color: var(--azul-madrid);
+    font-size: 0.95rem;
+}
+
+.cite-block__bibtex {
+    background: #1e1e1e;
+    color: #e6e6e6;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.85rem;
+    overflow-x: auto;
+    margin-bottom: 0;
+}
+
+.cite-block__bibtex code {
+    background: transparent;
+    color: inherit;
+    font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
+    white-space: pre;
+}
+
+/* ============= BUTTONS ============= */
+.btn-madrid {
+    background-color: var(--azul-madrid);
+    color: #fff;
+    border: none;
+    font-weight: 500;
+    padding: 0.5rem 1.25rem;
+    border-radius: 0.375rem;
+    text-decoration: none;
+    transition: background-color 0.15s ease;
+}
+
+.btn-madrid:hover,
+.btn-madrid:focus {
+    background-color: #002266;
+    color: #fff;
+}
+
+.btn-madrid:focus-visible {
+    outline: 3px solid #99b3ff;
+    outline-offset: 2px;
+}
+
+.btn-madrid-outline {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    font-weight: 500;
+    padding: 0.5rem 1.25rem;
+    border-radius: 0.375rem;
+    text-decoration: none;
+    transition: background-color 0.15s ease;
+}
+
+.btn-madrid-outline:hover,
+.btn-madrid-outline:focus {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+}
+
+/* ============= CONTACT ============= */
+.contact-maintainer {
+    background: #f7f9fc;
+    padding: 0.75rem 1rem;
+    border-radius: 0.25rem;
+    border-left: 4px solid var(--azul-madrid);
+}
+
+/* ============= FOOTER ============= */
+.pie {
+    border-top: 4px solid var(--azul-madrid);
+    padding: 1.5rem 1rem;
+}
+
+.pie__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    color: #cfd5e0;
+    font-size: 0.9rem;
+}
+
+.firma__isotipo {
+    height: 36px;
+    width: auto;
+}
+
+.pie__meta {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.pie__sep {
+    opacity: 0.5;
+}
+
+/* ============= RESPONSIVE ============= */
+@media (max-width: 575.98px) {
+    .hero {
+        padding: 2rem 1rem;
+    }
+    .hero__logo {
+        max-width: 180px;
+    }
+}
