@@ -47,8 +47,8 @@
           "license": "CC-BY 4.0",
           "format": "Turtle",
           "status": "Released",
-          "url_label": "View on Zenodo",
-          "url": "#"
+          "url_label": "View on Hugging Face",
+          "url": "https://huggingface.co/datasets/MAIA-Madrid-IA/cibelex-graph-core-sampler"
         },
         {
           "id": "qa-dataset",
@@ -58,7 +58,7 @@
           "format": "JSON / Hugging Face",
           "status": "Released",
           "url_label": "View on Hugging Face",
-          "url": "#"
+          "url": "https://huggingface.co/datasets/MAIA-Madrid-IA/cibelex-qa-rag-evals"
         },
         {
           "id": "cibelex-mcp",
@@ -68,7 +68,7 @@
           "format": "Python",
           "status": "Released",
           "url_label": "View on GitHub",
-          "url": "#"
+          "url": "https://github.com/AyuntamientoMadrid/cibelex-mcp-fuseki"
         },
         {
           "id": "loro-fuseki",
@@ -78,7 +78,7 @@
           "format": "Docker",
           "status": "Released",
           "url_label": "View on GitHub",
-          "url": "#"
+          "url": "https://github.com/AyuntamientoMadrid/loro-fuseki"
         }
       ]
     },
@@ -172,8 +172,8 @@
           "license": "CC-BY 4.0",
           "format": "Turtle",
           "status": "Publicado",
-          "url_label": "Ver en Zenodo",
-          "url": "#"
+          "url_label": "Ver en Hugging Face",
+          "url": "https://huggingface.co/datasets/MAIA-Madrid-IA/cibelex-graph-core-sampler"
         },
         {
           "id": "qa-dataset",
@@ -183,7 +183,7 @@
           "format": "JSON / Hugging Face",
           "status": "Publicado",
           "url_label": "Ver en Hugging Face",
-          "url": "#"
+          "url": "https://huggingface.co/datasets/MAIA-Madrid-IA/cibelex-qa-rag-evals"
         },
         {
           "id": "cibelex-mcp",
@@ -193,7 +193,7 @@
           "format": "Python",
           "status": "Publicado",
           "url_label": "Ver en GitHub",
-          "url": "#"
+          "url": "https://github.com/AyuntamientoMadrid/cibelex-mcp-fuseki"
         },
         {
           "id": "loro-fuseki",
@@ -203,7 +203,7 @@
           "format": "Docker",
           "status": "Publicado",
           "url_label": "Ver en GitHub",
-          "url": "#"
+          "url": "https://github.com/AyuntamientoMadrid/loro-fuseki"
         }
       ]
     },
