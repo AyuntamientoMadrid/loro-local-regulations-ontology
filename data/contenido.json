@@ -97,11 +97,11 @@
       "heading": "How to cite",
       "intro": "If you use LoRO or any of its associated artifacts in your research, please cite the following:",
       "preferred_label": "Preferred citation",
-      "preferred_text": "García Sáez, C., Esteban Arranz, L. F., et al. (2026). LoRO — Local Regulations Ontology (Version 1.0). Zenodo. https://doi.org/10.5281/zenodo.20076577",
+      "preferred_text": "Ayuntamiento de Madrid (2026). LoRO — Local Regulations Ontology (Version 1.0). Zenodo. https://doi.org/10.5281/zenodo.20076577",
       "doi_label": "Concept DOI (always points to latest version)",
       "doi_value": "10.5281/zenodo.20076577",
       "bibtex_label": "BibTeX",
-      "bibtex": "@misc{loro2026,\n  author       = {García Sáez, César and Esteban Arranz, Luis Fernando and others},\n  title        = {{LoRO --- Local Regulations Ontology}},\n  year         = {2026},\n  publisher    = {Zenodo},\n  doi          = {10.5281/zenodo.20076577},\n  url          = {https://doi.org/10.5281/zenodo.20076577},\n  note         = {Municipality of Madrid, MAIA initiative}\n}"
+      "bibtex": "@misc{loro2026,\n  author    = {{Ayuntamiento de Madrid}},\n  title     = {{LoRO — Local Regulations Ontology}},\n  year      = {2026},\n  publisher = {Ayuntamiento de Madrid},\n  doi       = {10.5281/zenodo.20076577}\n}"
     },
     "license_section": {
       "heading": "License",
@@ -117,7 +117,7 @@
         "Issues, suggestions and contributions are welcome via the public GitHub repositories listed in the Resources section."
       ],
       "maintainer_label": "Institutional contact",
-      "maintainer_value": "[institutional email pending]"
+      "maintainer_value": "maia.resources@madrid.es"
     },
     "footer": {
       "rights": "Municipality of Madrid · MAIA initiative · 2026",
@@ -222,11 +222,11 @@
       "heading": "Cómo citar",
       "intro": "Si utilizas LoRO o alguno de sus artefactos asociados en tu investigación, por favor utiliza la siguiente cita:",
       "preferred_label": "Cita preferida",
-      "preferred_text": "García Sáez, C., Esteban Arranz, L. F., et al. (2026). LoRO — Local Regulations Ontology (Versión 1.0). Zenodo. https://doi.org/10.5281/zenodo.20076577",
+      "preferred_text": "Ayuntamiento de Madrid (2026). LoRO — Local Regulations Ontology (Versión 1.0). Zenodo. https://doi.org/10.5281/zenodo.20076577",
       "doi_label": "Concept DOI (apunta siempre a la última versión)",
-      "doi_value": "10.5281/zenodo.PENDIENTE",
+      "doi_value": "10.5281/zenodo.20076577",
       "bibtex_label": "BibTeX",
-      "bibtex": "@misc{loro2026,\n  author       = {García Sáez, César and Esteban Arranz, Luis Fernando and others},\n  title        = {{LoRO --- Local Regulations Ontology}},\n  year         = {2026},\n  publisher    = {Zenodo},\n  doi          = {10.5281/zenodo.20076577},\n  url          = {https://doi.org/10.5281/zenodo.20076577},\n  note         = {Ayuntamiento de Madrid, iniciativa MAIA}\n}"
+      "bibtex": "@misc{loro2026,\n  author    = {{Ayuntamiento de Madrid}},\n  title     = {{LoRO — Local Regulations Ontology}},\n  year      = {2026},\n  publisher = {Ayuntamiento de Madrid},\n  doi       = {10.5281/zenodo.20076577}\n}"
     },
     "license_section": {
       "heading": "Licencia",
@@ -242,7 +242,7 @@
         "Se aceptan issues, sugerencias y contribuciones a través de los repositorios públicos de GitHub listados en la sección Recursos."
       ],
       "maintainer_label": "Contacto institucional",
-      "maintainer_value": "[email institucional pendiente]"
+      "maintainer_value": "maia.recursos@madrid.es"
     },
     "footer": {
       "rights": "Ayuntamiento de Madrid · iniciativa MAIA · 2026",
