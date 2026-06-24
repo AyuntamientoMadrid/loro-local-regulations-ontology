@@ -85,12 +85,12 @@
     "documentation": {
       "heading": "Documentation",
       "paragraphs": [
-        "The ontology is documented as HTML pages generated with WiDoCo (Wizard for Documenting Ontologies), in both English and Spanish. The documentation follows W3C Recommendations and includes a class diagram (WebVOWL), provenance information (PROV-O), and namespace metadata."
+        "The ontology is documented as HTML pages generated with WiDoCo (Wizard for Documenting Ontologies), in both English and Spanish. The documentation follows W3C Recommendations and includes provenance information (PROV-O) and namespace metadata.",
+        "The canonical URL of the ontology will soon be available at `http://maia.madrid.es/ontologies/def/local-regulations/index-en.html` (English) and `index-es.html` (Spanish). Until then, please use the temporary URLs below hosted at `servpubpre.madrid.es`."
       ],
       "links": [
-        {"label": "Ontology Documentation (English)", "url": "#"},
-        {"label": "Ontology Documentation (Spanish)", "url": "#"},
-        {"label": "Class Diagram (WebVOWL)", "url": "#"}
+        {"label": "Ontology Documentation (English)", "url": "https://servpubpre.madrid.es/IACBX_FTPLORO/ontologies/def/local-regulations/index-en.html"},
+        {"label": "Ontology Documentation (Spanish)", "url": "https://servpubpre.madrid.es/IACBX_FTPLORO/ontologies/def/local-regulations/index-es.html"}
       ]
     },
     "cite": {
@@ -210,12 +210,12 @@
     "documentation": {
       "heading": "Documentación",
       "paragraphs": [
-        "La ontología está documentada como páginas HTML generadas con WiDoCo (Wizard for Documenting Ontologies), en inglés y español. La documentación sigue las recomendaciones del W3C e incluye un diagrama de clases (WebVOWL), información de procedencia (PROV-O) y metadatos del namespace."
+        "La ontología está documentada como páginas HTML generadas con WiDoCo (Wizard for Documenting Ontologies), en inglés y español. La documentación sigue las recomendaciones del W3C e incluye información de procedencia (PROV-O) y metadatos del namespace.",
+        "La URL canónica de la ontología estará disponible en breve en `http://maia.madrid.es/ontologies/def/local-regulations/index-es.html` (español) e `index-en.html` (inglés). Hasta entonces, utilice los enlaces temporales de `servpubpre.madrid.es` indicados abajo."
       ],
       "links": [
-        {"label": "Documentación de la ontología (inglés)", "url": "#"},
-        {"label": "Documentación de la ontología (español)", "url": "#"},
-        {"label": "Diagrama de clases (WebVOWL)", "url": "#"}
+        {"label": "Documentación de la ontología (inglés)", "url": "https://servpubpre.madrid.es/IACBX_FTPLORO/ontologies/def/local-regulations/index-en.html"},
+        {"label": "Documentación de la ontología (español)", "url": "https://servpubpre.madrid.es/IACBX_FTPLORO/ontologies/def/local-regulations/index-es.html"}
       ]
     },
     "cite": {
